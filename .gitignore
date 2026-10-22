@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+package-lock.json.backup
+
+# Kunci & Konfigurasi Rahsia (Sangat Penting)
+.env
+.env.*
+!.env.example
+
+# Log & Debug
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pm2.log
+
+# Cache & Runtime
+.npm/
+.pm2/
+pids/
+*.pid
+*.seed
+
+# Fail Sistem Operasi & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Skrip ujian atau sandaran lokal (jika tidak diperlukan di VPS)
+test-webhook.local.js
+*.local
